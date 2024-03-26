@@ -23,13 +23,29 @@ h1 {
 }
 
 h2 {
-    font-size: 30px;
+    font-size: 25px;
     color: black;
     text-align: center;
     text-decoration: underline;
+    cursor: pointer;
+    border: 1px solid #000;
+    padding: 10px;
+    margin: 0;
+    display: inline-block;
+}
+
+h2:hover {
+    color: darkblue;
 }
 
 p {
     font-size: 20px;
     text-align: center;
+}
+
+img {
+    display: block;
+    margin: 0 auto;
+    width: 250px;
+    height: auto;
 }
