@@ -10,8 +10,26 @@ body {
 
 main {
     background-color: white;
-    width: 500px;
+    width: 1000px;
     margin: auto;
     padding: 10px;
     box-shadow: 3px 3px 5px rgba(0, 0, 0, 0.473);
+}
+
+h1 {
+    font-size: 40px;
+    color: black;
+    text-align: center;
+}
+
+h2 {
+    font-size: 30px;
+    color: black;
+    text-align: center;
+    text-decoration: underline;
+}
+
+p {
+    font-size: 20px;
+    text-align: center;
 }
