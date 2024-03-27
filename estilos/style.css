@@ -9,7 +9,7 @@ body {
 
 main {
     background-color: white;
-    width: 1000px;
+    width: 700px;
     margin: auto;
     padding: 38px;
     box-shadow: 3px 3px 5px rgba(0, 0, 0, 0.473);
@@ -19,6 +19,7 @@ h1 {
     font-size: 40px;
     color: black;
     text-align: center;
+    white-space: nowrap;
 }
 
 h2 {
@@ -61,15 +62,12 @@ img {
     height: auto; 
 }
 
-
-
 .container {
     width: 80%;
     max-width: 700px;
-    margin: 50px auto;
-    padding: 20px;
-    background-color: #f4f4f4;
-    border-radius: 8px;
+    margin: auto;
+    padding: 38px;
+    background-color: white;
     box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
 }
 
@@ -92,7 +90,7 @@ input[type="email"],
 textarea {
     width: 100%;
     padding: 10px;
-    border: 1px solid #ccc;
+    border: 1px solid #b1b1b1;
     border-radius: 4px;
     box-sizing: border-box;
     resize: none;
@@ -103,7 +101,7 @@ textarea {
 }
 
 button {
-    background-color: blue;
+    background-color: rgb(0, 0, 255);
     color: #fff;
     padding: 10px 20px;
     border: none;
@@ -113,7 +111,12 @@ button {
 }
 
 button:hover {
-    background-color: blue;
+    background-color: darkblue;
+}
+
+button.centralizado {
+    display: block;
+    margin: 0 auto;
 }
 
 .titulo-link {
