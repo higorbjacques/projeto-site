@@ -9,7 +9,7 @@ body {
 
 main {
     background-color: white;
-    width: 700px;
+    width: 750px;
     margin: auto;
     padding: 38px;
     box-shadow: 3px 3px 5px rgba(0, 0, 0, 0.473);
@@ -20,16 +20,17 @@ h1 {
     color: black;
     text-align: center;
     white-space: nowrap;
+    font-style: italic;
 }
 
 h2 {
     font-size: 25px;
     text-align: center;
     color: black;
-    border: 3px solid #000;
+    border: 2px solid #000;
     padding: 8px;
     margin: 30px;
-    border-radius: 15px;
+    border-radius: 10px;
     width: 30%;
     margin-left: auto;
     margin-right: auto;
@@ -64,7 +65,7 @@ img {
 
 .container {
     width: 80%;
-    max-width: 700px;
+    max-width: 750px;
     margin: auto;
     padding: 38px;
     background-color: white;
@@ -128,4 +129,8 @@ button.centralizado {
 
 .titulo-link:hover {
     color: darkblue;
+}
+
+ul.minha-lista li {
+    font-size: 20px;
 }
